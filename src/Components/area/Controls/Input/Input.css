@@ -1,0 +1,46 @@
+.Item{
+    position: absolute;
+    top:-130px;
+    left:33%;
+}
+.AddItem{
+  display: flex;
+  flex-flow:column;
+  text-align: start;
+  position: relative;
+  border:2px solid #ccc;
+}
+.AddItem input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid #d3d3d3;
+    box-shadow: none;
+    color: #111;
+}
+
+.AddItem label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: red;
+    transition: 0.2s all;
+    cursor: text;
+}
+/* .AddItem input:focus,input:valid {
+  border-color: #00dd22;
+} */
+
+
+[type="date"] {
+    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+  }
+
+  [type="date"]::-webkit-inner-spin-button {
+    display: none;
+  }
+  [type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
